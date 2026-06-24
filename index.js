@@ -1,18 +1,23 @@
-// Código base JavaScript
+let NomeDoHeroi = "Homem-Aranha";   
+let XpDoHeroi = 400; 
+let nivelDoHeroi = "";  
 
-// Função principal
-function main() {
-  console.log("Bem-vindo ao projeto!");
+if (XpDoHeroi < 1000) {
+    nivelDoHeroi = "Iniciante";
+} else if (XpDoHeroi <= 2000) {
+    nivelDoHeroi = "Bronze";
+} else if (XpDoHeroi <= 5000) {
+    nivelDoHeroi = "Prata";
+} else if (XpDoHeroi <= 7000) {
+    nivelDoHeroi = "Ouro";
+} else if (XpDoHeroi <= 8000) {
+    nivelDoHeroi = "Platina";
+} else if (XpDoHeroi <= 9000) {
+    nivelDoHeroi = "Ascendente";
+} else if (XpDoHeroi <= 10000) {
+    nivelDoHeroi = "Imortal";
+} else {
+    nivelDoHeroi = "Radiante";
 }
 
-// Event listeners
-document.addEventListener("DOMContentLoaded", () => {
-  main();
-});
-
-// Funções utilitárias
-function exemplo() {
-  // Adicione seu código aqui
-}
-
-
+console.log("O herói " + NomeDoHeroi + " está no nível " + nivelDoHeroi + " com " + XpDoHeroi + " de XP!");
