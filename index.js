@@ -3,7 +3,7 @@ let XpDoHeroi = 400;
 let nivelDoHeroi = "";  
 
 if (XpDoHeroi < 1000) {
-    nivelDoHeroi = "Iniciante";
+    nivelDoHeroi = "ferro";
 } else if (XpDoHeroi <= 2000) {
     nivelDoHeroi = "Bronze";
 } else if (XpDoHeroi <= 5000) {
